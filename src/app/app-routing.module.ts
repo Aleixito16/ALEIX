@@ -16,8 +16,24 @@ const routes: Routes = [
     loadChildren: () => import('./pages/alert/alert.module').then( m => m.AlertPageModule)
   },
   {
-    path: 'action-sheet',
-    loadChildren: () => import('./pages/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
+    path: 'actionsheet',
+    loadChildren: () => import('./pages/actionsheet/actionsheet.module').then( m => m.ActionsheetPageModule)
+  },
+  {
+    path: 'avatar',
+    loadChildren: () => import('./pages/avatar/avatar.module').then( m => m.AvatarPageModule)
+  },
+  {
+    path: 'botones',
+    loadChildren: () => import('./pages/botones/botones.module').then( m => m.BotonesPageModule)
+  },
+  {
+    path: 'card',
+    loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
+  },
+  {
+    path: 'check',
+    loadChildren: () => import('./pages/check/check.module').then( m => m.CheckPageModule)
   },
 ];
 

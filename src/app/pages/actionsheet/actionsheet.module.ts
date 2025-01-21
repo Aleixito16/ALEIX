@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
-import { AlertPageRoutingModule } from './alert-routing.module';
-import { AlertPage } from './alert.page';
+import { ActionsheetPageRoutingModule } from './actionsheet-routing.module';
+import { ActionsheetPage } from './actionsheet.page';
 import { RouterModule } from '@angular/router';  
 import { ComponentsModule } from 'src/app/components/components.module';
 
@@ -14,15 +14,16 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    AlertPageRoutingModule,
+    ActionsheetPageRoutingModule,
     ComponentsModule,
     RouterModule.forChild([
           {
             path: '',
-            component: AlertPage
+            component: ActionsheetPage
           }
         ])
       ],
-      declarations: [AlertPage]
+      declarations: [ActionsheetPage]
     })
-    export class AlertPageModule {}
+    export class ActionsheetPageModule {}
+  

@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+
 import { IonicModule } from '@ionic/angular';
 
-import { ActionSheetPageRoutingModule } from './action-sheet-routing.module';
-import { ActionSheetPage } from './action-sheet.page';
+import { CheckPageRoutingModule } from './check-routing.module';
+
+import { CheckPage } from './check.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -12,9 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    ActionSheetPageRoutingModule, // Importa las rutas correctamente definidas en action-sheet-routing.module.ts
+    CheckPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [ActionSheetPage]
+  declarations: [CheckPage]
 })
-export class ActionSheetPageModule {}
+export class CheckPageModule {}
