@@ -17,12 +17,12 @@ export class InicioPage implements OnInit {
   componentes: Componente[]=[
    {
     icon: 'american-football-outline',
-    name: 'actionsheet',
+    name: 'Action Sheet',
     redirectTo: '/actionsheet'
    },
    {
     icon: 'alert-circle-outline',
-    name: 'alert',
+    name: 'Alert',
     redirectTo: '/alert'
    },
    {
@@ -44,7 +44,47 @@ export class InicioPage implements OnInit {
     icon: 'card-outline',
     name: 'Check',
     redirectTo: '/check'
-   } 
+   },
+   {
+    icon: 'calendar-outline',
+    name: 'Date Time',
+    redirectTo: '/date-time'
+   },
+   {
+    icon: 'car-outline',
+    name: 'Fab',
+    redirectTo: '/fab'
+   },
+   {
+    icon: 'grid-outline',
+    name: 'Grid',
+    redirectTo: '/grid'
+   },
+   {
+    icon: 'infinite-outline',
+    name: 'Infinite',
+    redirectTo: '/infinite'
+   },
+   {
+    icon: 'hammer-outline',
+    name: 'Input',
+    redirectTo: '/input'
+   },
+   {
+    icon: 'list-outline',
+    name: 'List - Sliding',
+    redirectTo: '/list'
+   },
+   {
+    icon: 'reorder-three-outline',
+    name: 'List - Reorder',
+    redirectTo: '/list-reorder'
+   },
+   {
+    icon: 'refresh-circle-outline',
+    name: 'Loading',
+    redirectTo: '/loading'
+   },
   ];
 
   constructor() { }
